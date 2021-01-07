@@ -82,9 +82,11 @@ print(l3)
  Remove element form first position -->
 Enter list = [11,34,"Kavita",54.9,'b',20] 
 [34, 'Kavita', 54.9, 'b', 20]
+
 Remove element form specific position-->
 Enter list = [11,34,"Kavita",54.9,'b',20] 
 [11, 34, 54.9, 'b', 20]
+
 Remove element form last position-->
 Enter list =  [11,34,"Kavita",54.9,'b',20]
 [11, 34, 'Kavita', 54.9, 'b']'''
