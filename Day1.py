@@ -10,11 +10,9 @@ for i in range(num):
 print("list =",list)
 
 print("without using append() method")
-list1 = []
-for i in range(num):
- l2 = int(input())
- list1.insert(i,l2)
-print("list1 =",list1)
+l1 = eval(input("Enter list :"))
+print("list =",l1)
+
 '''using append() method
 Enter length of a list: 4
 Enter elements of list:
@@ -24,10 +22,5 @@ Enter elements of list:
 55
 list = [454, 22, 778, 55]
 without using append() method
-Enter length of a list: 4
-Enter elements of list:
-454
-22
-778
-55
-list = [454, 22, 778, 55]'''
+Enter list :[10,'a',789,"abc",43]
+list = [10, 'a', 789, 'abc', 43]'''
