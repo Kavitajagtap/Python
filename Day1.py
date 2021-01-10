@@ -25,7 +25,7 @@ list = [454, 22, 778, 55]
 without using append() method
 Enter list :[10,'a',789,"abc",43]
 list = [10, 'a', 789, 'abc', 43]'''
-
+----------------------------------------------------------------------------------------------
 # 2.Add element at first, last and specific location in list 
 
 print("add element at first location")
@@ -59,7 +59,7 @@ list1 = ["Orange",'a',34,"$",23.4]
 add element at last location
 list2 =  ["Orange",'a',34,"$",23.4] 
 ['Orange', 'a', 34, '$', 23.4, 'Mango']'''
-
+-----------------------------------------------------------------------------------------------
 # 3.Remove element from first position ,last position and specific position from list.
 
 print("Remove element form first position -->")
