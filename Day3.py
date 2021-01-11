@@ -53,3 +53,28 @@ Sorted list = [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]'''
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# 3.Write a  program to remove duplicates elements from a list.
+
+list1 = []
+num = int(input("length of a list:"))
+print("Enter elements of list:")
+for i in range(num):
+ list1.append(int(input()))
+print("list = ", list1)
+Newlist = list(set(list1))
+print("list without duplicates:",Newlist) 
+
+'''Output :
+length of a list:6
+Enter elements of list:
+10
+20
+50
+60
+50
+20
+list =  [10, 20, 50, 60, 50, 20]
+list without duplicates: [10, 20, 50, 60]'''
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
