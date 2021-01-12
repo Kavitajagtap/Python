@@ -30,3 +30,15 @@ print("list of words =",list)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# 3.Write a program to print the numbers of a specified list after removing even numbers from it.
+
+list = []
+n= int(input("length of a list:"))
+print("Enter elements of list:")
+for i in range(n):
+    list.append(int(input()))
+print("list =",list)
+list = [a for a in list if a%2 != 0]
+print("list after removing even numbers from it =",list)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
