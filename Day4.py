@@ -18,4 +18,15 @@ Enter elements of list:
 list = []
 list is empty'''
 
-print("*"*20)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 2.Write a  program to find the list of words that are longer than n from a given list of words. 
+
+s1 = input("Enter any strings =")
+a=s1.split(" ")
+n=int(input("enter value of n ="))
+list = [i for i in a if len(i) > n]
+print("list of words =",list)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
