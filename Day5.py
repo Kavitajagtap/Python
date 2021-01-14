@@ -43,7 +43,11 @@ b = list(set(l2) - set(l1))
 
 diff = a + b
 print("difference between list =",diff)
+'''
+Output:
+difference between list = [9, 3, 5, 8, 2, 4, 6]
 
+'''
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 3.Write a  program to convert a list of characters into a string. 
@@ -51,4 +55,5 @@ print("difference between list =",diff)
 s = eval(input("list of character: "))
 s = ''.join(s)
 print("string =",s)
+
 
