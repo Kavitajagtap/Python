@@ -27,18 +27,24 @@ a=s1.split(" ")
 n=int(input("enter value of n ="))
 list = [i for i in a if len(i) > n]
 print("list of words =",list)
-
+'''
+Output:-
+Enter any strings =Hello I am Kavita Vijay Jagtap
+enter value of n =3 
+list of words = ['Hello', 'Kavita', 'Vijay', 'Jagtap']
+'''
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 3.Write a program to print the numbers of a specified list after removing even numbers from it.
 
 list = []
-n= int(input("length of a list:"))
-print("Enter elements of list:")
-for i in range(n):
-    list.append(int(input()))
-print("list =",list)
+list = eval(input("Enter list: "))
 list = [a for a in list if a%2 != 0]
 print("list after removing even numbers from it =",list)
+'''
+output :-
 
+Enter list: [10,45,90,33,67,78,55]
+list after removing even numbers from it = [45, 33, 67, 55]
+'''
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
