@@ -40,11 +40,13 @@ print("list =",list)
 x = int(input("Enter specific element which is present in the list:"))
 print("{} occurred {} times in a list".format(x, count(list, x)))
 
-'''Output :
+'''
+Output :
 Enter list: [23,'a',43,"abc",43,78,21,43]
 list = [23, 'a', 43, 'abc', 43, 78, 21, 43]
 Enter specific element which is present in the list:43
-43 occurred 3 times in a list'''
+43 occurred 3 times in a list
+'''
 ------------------------------------------------------------------------------------------------------------------------
 #3 Write a program to remove the first occurrence of a specified element from  list.
 
@@ -55,13 +57,14 @@ print("Remove the first occurrence of a specified element from list:")
 list.remove(x)
 print("New list = ",list)
 
-'''Output :-
+'''
+Output :-
 Enter list: [90,67,'a',123,67,"abc",54,67]
 list = [90, 67, 'a', 123, 67, 'abc', 54, 67]
 Enter specific element: 67
 Remove the first occurrence of a specified element from list:
-New list =  [90, 'a', 123, 67, 'abc', 54, 67]'''
+New list =  [90, 'a', 123, 67, 'abc', 54, 67]
 
-
+'''
 -----------------------------------------------------------------------------------------------------------------------
 
