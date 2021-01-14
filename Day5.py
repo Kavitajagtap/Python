@@ -1,3 +1,4 @@
+
 # 1.Write a  program to generate all permutations of a list.
 
 def per(lst):
