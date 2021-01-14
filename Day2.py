@@ -9,7 +9,8 @@ print("Access individual element of list through indexes:-->")
 for i in range(len(list)):
     print(list[i])
     
-'''Output :-
+'''
+Output :
 Enter list: [123,'a',56,78,"abc"]
 list = [123, 'a', 56, 78, 'abc']
 display list items:-->
@@ -23,7 +24,8 @@ Access individual element of list through indexes:-->
 a
 56
 78
-abc'''
+abc
+'''
 ------------------------------------------------------------------------------------------------------------------------
 #2.Write a program to get the number of occurrences of a specified element in an list.
 
@@ -38,7 +40,7 @@ print("list =",list)
 x = int(input("Enter specific element which is present in the list:"))
 print("{} occurred {} times in a list".format(x, count(list, x)))
 
-'''Output :-
+'''Output :
 Enter list: [23,'a',43,"abc",43,78,21,43]
 list = [23, 'a', 43, 'abc', 43, 78, 21, 43]
 Enter specific element which is present in the list:43
