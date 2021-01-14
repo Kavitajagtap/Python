@@ -25,7 +25,6 @@ aba
 list = ['abc', 'xyz', 'aba', '1221', '414']
 number of strings having same first and last character in a list =  3
 '''
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 2.Write a program to get a list, sorted in increasing order by the last element in each tuple from a given list of non-empty tuples. 
@@ -55,7 +54,6 @@ Enter the list of tuples:
 list = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 Sorted list = [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
 '''
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 3.Write a  program to remove duplicates elements from a list.
@@ -82,6 +80,5 @@ Enter elements of list:
 list =  [10, 20, 50, 60, 50, 20]
 list without duplicates: [10, 20, 50, 60]
 '''
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
