@@ -27,9 +27,9 @@ a
 78
 abc
 '''
-------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
-#2.Write a program to get the number of occurrences of a specified element in an list.
+# 2.Write a program to get the number of occurrences of a specified element in an list.
 
 def count(list, x):
     c= 0
@@ -49,9 +49,9 @@ list = [23, 'a', 43, 'abc', 43, 78, 21, 43]
 Enter specific element which is present in the list:43
 43 occurred 3 times in a list
 '''
-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#3 Write a program to remove the first occurrence of a specified element from  list.
+# 3 Write a program to remove the first occurrence of a specified element from  list.
 
 list = eval(input("Enter list: "))
 print("list =",list)
@@ -68,5 +68,5 @@ Enter specific element: 67
 Remove the first occurrence of a specified element from list:
 New list =  [90, 'a', 123, 67, 'abc', 54, 67]
 '''
------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
