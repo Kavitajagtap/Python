@@ -13,7 +13,8 @@ for i in range(n):
 print("list =",list)
 print("number of strings having same first and last character in a list = ",count)
 
-'''Output:
+'''
+Output:
 length of a list:5
 Enter elements of list:
 abc
@@ -22,7 +23,8 @@ aba
 1221
 414
 list = ['abc', 'xyz', 'aba', '1221', '414']
-number of strings having same first and last character in a list =  3'''
+number of strings having same first and last character in a list =  3
+'''
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -41,7 +43,8 @@ while (l1 != ''):
 print("list =",list)
 print("Sorted list =",sorted_list(list))
 
-'''Output :
+'''
+Output :
 Enter the list of tuples:
 2 5
 1 2
@@ -50,7 +53,8 @@ Enter the list of tuples:
 2 1
 
 list = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
-Sorted list = [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]'''
+Sorted list = [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
+'''
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -65,7 +69,8 @@ print("list = ", list1)
 Newlist = list(set(list1))
 print("list without duplicates:",Newlist) 
 
-'''Output :
+'''
+Output :
 length of a list:6
 Enter elements of list:
 10
@@ -75,7 +80,8 @@ Enter elements of list:
 50
 20
 list =  [10, 20, 50, 60, 50, 20]
-list without duplicates: [10, 20, 50, 60]'''
+list without duplicates: [10, 20, 50, 60]
+'''
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
