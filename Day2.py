@@ -1,3 +1,4 @@
+
 # 1.Write a Python program to create an list without append()  display the list items. Access individual element through indexes.
 
 list = eval(input("Enter list: "))
@@ -27,6 +28,7 @@ a
 abc
 '''
 ------------------------------------------------------------------------------------------------------------------------
+
 #2.Write a program to get the number of occurrences of a specified element in an list.
 
 def count(list, x):
@@ -48,6 +50,7 @@ Enter specific element which is present in the list:43
 43 occurred 3 times in a list
 '''
 ------------------------------------------------------------------------------------------------------------------------
+
 #3 Write a program to remove the first occurrence of a specified element from  list.
 
 list = eval(input("Enter list: "))
@@ -64,7 +67,6 @@ list = [90, 67, 'a', 123, 67, 'abc', 54, 67]
 Enter specific element: 67
 Remove the first occurrence of a specified element from list:
 New list =  [90, 'a', 123, 67, 'abc', 54, 67]
-
 '''
 -----------------------------------------------------------------------------------------------------------------------
 
