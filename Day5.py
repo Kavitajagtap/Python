@@ -55,5 +55,11 @@ difference between list = [9, 3, 5, 8, 2, 4, 6]
 s = eval(input("list of character: "))
 s = ''.join(s)
 print("string =",s)
+'''
+Output:
 
+list of character: ['K','v','i','t','a',' , B.','T','e','c','h',' s','t','u','d','e','n','t']
+string = Kvita , B.Tech student
+
+'''
 
