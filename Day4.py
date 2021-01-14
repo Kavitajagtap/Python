@@ -16,8 +16,8 @@ Output:
 length of a list:0
 Enter elements of list:
 list = []
-list is empty'''
-
+list is empty
+'''
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 2.Write a  program to find the list of words that are longer than n from a given list of words. 
