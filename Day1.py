@@ -13,7 +13,8 @@ print("without using append() method")
 l1 = eval(input("Enter list :"))
 print("list =",l1)
 
-''' Output :-
+'''
+Output :-
 using append() method
 Enter length of a list: 4
 Enter elements of list:
@@ -24,7 +25,8 @@ Enter elements of list:
 list = [454, 22, 778, 55]
 without using append() method
 Enter list :[10,'a',789,"abc",43]
-list = [10, 'a', 789, 'abc', 43]'''
+list = [10, 'a', 789, 'abc', 43]
+'''
 ----------------------------------------------------------------------------------------------
 # 2.Add element at first, last and specific location in list 
 
@@ -58,7 +60,9 @@ list1 = ["Orange",'a',34,"$",23.4]
 
 add element at last location
 list2 =  ["Orange",'a',34,"$",23.4] 
-['Orange', 'a', 34, '$', 23.4, 'Mango']'''
+['Orange', 'a', 34, '$', 23.4, 'Mango']
+
+'''
 -----------------------------------------------------------------------------------------------
 # 3.Remove element from first position ,last position and specific position from list.
 
