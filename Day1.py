@@ -16,14 +16,17 @@ print("list =",l1)
 '''
 Output :-
 using append() method
+
 Enter length of a list: 4
 Enter elements of list:
 454
 22
 778
 55
+
 list = [454, 22, 778, 55]
 without using append() method
+
 Enter list :[10,'a',789,"abc",43]
 list = [10, 'a', 789, 'abc', 43]
 '''
@@ -81,7 +84,8 @@ l3 = eval(input("Enter list ="))
 l3.remove(l3[-1])
 print(l3)
 
-'''Output :-
+'''
+Output :-
  
  Remove element form first position -->
 Enter list = [11,34,"Kavita",54.9,'b',20] 
@@ -93,6 +97,7 @@ Enter list = [11,34,"Kavita",54.9,'b',20]
 
 Remove element form last position-->
 Enter list =  [11,34,"Kavita",54.9,'b',20]
-[11, 34, 'Kavita', 54.9, 'b']'''
+[11, 34, 'Kavita', 54.9, 'b']
+'''
 
  
