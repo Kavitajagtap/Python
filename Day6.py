@@ -1,5 +1,5 @@
 
-# 1.Write a  program to check whether two lists are circularly identical.
+# 1.Write a  program to check whether two lists are circularly identical or not
 
 a = eval(input("Enter list1 = "))
 b = eval(input("Enter list2 = "))
