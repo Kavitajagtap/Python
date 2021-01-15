@@ -21,3 +21,17 @@ for i in range(n1):
 print("list =",list)
 list.sort()
 print("second smallest number in a list =",list[1])
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+#3 3.Write a program to get unique values from a list
+
+list1 = []
+n1=int(input("Enter length of list:"))
+print("Enter element of list:")
+for i in range(n1):
+   l = int(input())
+   list1.append(l)
+print("list =",list1)
+print("Unique values =",list(set(list1)))
+
