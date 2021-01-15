@@ -28,7 +28,18 @@ for i in range(n1):
 print("list =",list)
 list.sort()
 print("second smallest number in a list =",list[1])
+'''
+Output:
 
+Enter length of list:4
+Enter element of list:
+5
+45
+80
+23
+list = [5, 45, 80, 23]
+second smallest number in a list = 23
+'''
 ---------------------------------------------------------------------------------------------------------------------------------
 
 #3 3.Write a program to get unique values from a list
