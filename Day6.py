@@ -8,6 +8,13 @@ if ' '.join(map(str, a)) in ' '.join(map(str, b * 2)):
     print("lists are circularly identical")
 else:
     print("lists are not circularly identical")
+ '''   
+ Output:
+ 
+  Enter list1 = [4,4,2,2,4]
+  Enter list2 = [4,4,4,2,2]
+  lists are circularly identical
+'''
 ------------------------------------------------------------------------------------------------------------------------------------
 
 # 2.Write a  program to find the second smallest number in a list.
