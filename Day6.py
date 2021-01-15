@@ -52,4 +52,17 @@ for i in range(n1):
    list1.append(l)
 print("list =",list1)
 print("Unique values =",list(set(list1)))
+'''
+Output:
 
+Enter length of list:5
+Enter element of list:
+10
+67
+55
+55
+10
+list = [10, 67, 55, 55, 10]
+Unique values = [10, 67, 55]
+
+------------------------------------------------------------------------------------------------------------------
