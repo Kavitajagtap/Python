@@ -4,11 +4,19 @@
 l1 = eval(input("Enter list :"))
 count = {}
 for x in l1:
-    if x in count:
-        count[x] += 1
-    else:
-        count[x] = 1
+  if x in count:
+     count[x] += 1
+  else:
+     count[x] = 1
 print("frequency of a element in a list =\n",list(count.items()))
+'''
+Output:
+
+Enter list :[10,'a',"abc",10,25,25,'a','a']
+frequency of a element in a list =
+ [(10, 2), ('a', 3), ('abc', 1), (25, 2)]
+
+'''
 
 # 2.write a  program to count the number of elements in a list within a specified range.
 
