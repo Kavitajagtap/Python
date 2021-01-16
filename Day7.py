@@ -28,6 +28,15 @@ for x in list:
  if min <= x <= max:
   c += 1
 print("number of element within ",min,"to",max,"=",c)
+'''
+Output:
+
+Enter list:[10,32,58,90,42,99,60,53,20]
+minimum:50
+maximum:100
+number of element within  50 to 100 = 5
+
+'''
 
 #3.Write a program to check whether a list contains a sublist.
 
