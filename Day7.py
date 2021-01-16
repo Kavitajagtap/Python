@@ -21,3 +21,14 @@ for x in list:
   c += 1
 print("number of element within ",min,"to",max,"=",c)
 
+#3.Write a program to check whether a list contains a sublist.
+
+list = eval(input("Enter list:"))
+sublist = eval(input("Enter sublist:"))
+c = 0
+if set(sublist).issubset(set(list)):
+    c = 1
+if (c):
+    print("list contains a sublist")
+else:
+    print("list doesn't contains a sublist")
