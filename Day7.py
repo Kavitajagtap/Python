@@ -49,3 +49,11 @@ if (c):
     print("list contains a sublist")
 else:
     print("list doesn't contains a sublist")
+'''
+Output :
+
+Enter list:[10,20,45,98,23,11]
+Enter sublist:[20,45,98]
+list contains a sublist
+
+'''
