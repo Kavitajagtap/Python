@@ -17,6 +17,7 @@ frequency of a element in a list =
  [(10, 2), ('a', 3), ('abc', 1), (25, 2)]
 
 '''
+-------------------------------------------------------------------------------------------
 
 # 2.write a  program to count the number of elements in a list within a specified range.
 
