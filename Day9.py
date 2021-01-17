@@ -18,6 +18,7 @@ for i in (d1, d2, d3):
     dic4.update(i)
 print("Concatenated dictionary =",dic4)
 '''
+Output:
 Enter elements of dictionary: 2
 key = 1
 value = 10
@@ -55,6 +56,7 @@ if x in dict:
 else:
     print('Key is not exist in the dictionary')
  '''
+Output:
 Enter elements = 4
 key: 1
 value: 10
@@ -77,7 +79,6 @@ dict={key:key * key for key in range(1,n+1)}
 print("Dictionary =",dict)
 '''
 Output:
-
 Enter any number = 5
 Dictionary = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 '''
