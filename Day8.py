@@ -49,7 +49,6 @@ sorted dictionary in descending order = [('c', 6), ('a', 4), ('d', 3), ('b', 1)]
 # 3.Write a Program to add a key to a dictionary.
 
 dict = eval(input("Enter dictionary:"))
-print("Your dictionary =",dict)
 key = input("key: ")
 value = int(input("value: "))
 dict.update({key:value})
@@ -58,7 +57,6 @@ print("updated dictionary =",dict)
 Output:
 
 Enter dictionary:{'Apple':2017,'Microsoft':1985,'Facebook':2012}
-Your dictionary = {'Apple': 2017, 'Microsoft': 1985, 'Facebook': 2012}
 key: Amazon
 value: 1997
 updated dictionary = {'Apple': 2017, 'Microsoft': 1985, 'Facebook': 2012, 'Amazon': 1997}
