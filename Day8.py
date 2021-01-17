@@ -15,6 +15,7 @@ Microsoft 1985
 Facebook 2012
 Amazon 1997
 '''
+--------------------------------------------------------------------------------------
 
 # 2.Write a Program to sort (ascending and descending) a dictionary by value.
 
