@@ -53,7 +53,20 @@ if x in dict:
     print('Key exist in the dictionary')
 else:
     print('Key is not exist in the dictionary')
- 
+ '''
+Enter elements = 4
+key: 1
+value: 10
+key: 2
+value: 20
+key: 3
+value: 30
+key: 4
+value: 40
+Dictionary = {1: 10, 2: 20, 3: 30, 4: 40}
+enter any key to check = 3
+Key exist in the dictionary
+'''
 
 # 3. Write a Program to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x). 
 
