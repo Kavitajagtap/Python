@@ -17,3 +17,18 @@ dic4 = {}
 for i in (d1, d2, d3):
     dic4.update(i)
 print("Concatenated dictionary =",dic4)
+
+# 2. Write a Program to check whether a given key already exists in a dictionary
+
+dict = {}
+n= int(input("Enter elements = "))
+for i in range(n):
+    key = int(input("key: "))
+    value = int(input("value: "))
+    dict[key] = value
+print("Dictionary =",dict)
+x = int(input("enter any key to check = "))
+if x in dict:
+    print('Key exist in the dictionary')
+else:
+    print('Key is not exist in the dictionary')
