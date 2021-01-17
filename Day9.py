@@ -17,6 +17,27 @@ dic4 = {}
 for i in (d1, d2, d3):
     dic4.update(i)
 print("Concatenated dictionary =",dic4)
+'''
+Enter elements of dictionary: 2
+key = 1
+value = 10
+key = 2
+value = 20
+Enter elements of dictionary: 2
+key = 3
+value = 30
+key = 4
+value = 40
+Enter elements of dictionary: 2
+key = 5
+value = 50
+key = 6
+value = 60
+dict1 = {1: 10, 2: 20} 
+dict2 = {3: 30, 4: 40} 
+dict3 = {5: 50, 6: 60}
+Concatenated dictionary = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
+'''
 
 # 2. Write a Program to check whether a given key already exists in a dictionary
 
