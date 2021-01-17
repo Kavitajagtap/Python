@@ -38,6 +38,7 @@ dict2 = {3: 30, 4: 40}
 dict3 = {5: 50, 6: 60}
 Concatenated dictionary = {1: 10, 2: 20, 3: 30, 4: 40, 5: 50, 6: 60}
 '''
+-----------------------------------------------------------------------------------
 
 # 2. Write a Program to check whether a given key already exists in a dictionary
 
@@ -67,6 +68,7 @@ Dictionary = {1: 10, 2: 20, 3: 30, 4: 40}
 enter any key to check = 3
 Key exist in the dictionary
 '''
+-----------------------------------------------------------------------------------------------------------------------
 
 # 3. Write a Program to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x). 
 
