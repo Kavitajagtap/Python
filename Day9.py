@@ -32,10 +32,16 @@ if x in dict:
     print('Key exist in the dictionary')
 else:
     print('Key is not exist in the dictionary')
+ 
 
 # 3. Write a Program to generate and print a dictionary that contains a number (between 1 and n) in the form (x, x*x). 
 
 n = int(input("Enter any number = "))
 dict={key:key * key for key in range(1,n+1)}
 print("Dictionary =",dict)
+'''
+Output:
 
+Enter any number = 5
+Dictionary = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+'''
