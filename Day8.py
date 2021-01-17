@@ -19,3 +19,11 @@ print("sorted dictionary in ascending order =",sorted(dict.items(), key=lambda x
 print("sorted dictionary in descending order =",sorted(dict.items(), key=lambda x: x[1],reverse = True))
 
 
+# 3.Write a Program to add a key to a dictionary.
+
+dict = eval(input("Enter dictionary:"))
+print("Your dictionary =",dict)
+key = input("key: ")
+value = int(input("value: "))
+dict.update({key:value})
+print("updated dictionary =",dict)
