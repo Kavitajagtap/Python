@@ -26,7 +26,7 @@ for i in range(n):
 print("Dictionary =",dict)
 d = 1
 for i in dict:
-    d = d * dict[i]
+   d = d * dict[i]
 print("Multiplication of all elements in dictionary =",d)
 
 ----------------------------------------------------------------------------
