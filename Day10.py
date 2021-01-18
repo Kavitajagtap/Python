@@ -32,6 +32,7 @@ print("Multiplication of all elements in dictionary =",d)
 ----------------------------------------------------------------------------
 
 # 3. Write a  program to map two lists into a dictionary. 
+
 def list():
  l1 = []
  n = int(input("Enter length of a list: "))
