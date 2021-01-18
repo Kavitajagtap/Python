@@ -1,3 +1,4 @@
+
 # 1.Write a  program to print all unique values in a dictionary.
 
 dict = {}
