@@ -44,3 +44,4 @@ print("list1 =",a,"\nlist2 =",b)
 dict = {a[i]: b[i] for i in range(len(a))}
 print("Mapping of two list in dictionary =",dict)
 
+----------------------------------------------------------------------------
