@@ -30,6 +30,7 @@ for i in l1[0]:
 -------------------------------------------------------------------------------------------------------------------------------------
                   
 # 3.Write a  program to find the highest 3 values in a dictionary.
+                  
  dict = {}
 n = int(input("Enter elements:"))
 for i in range(n):
