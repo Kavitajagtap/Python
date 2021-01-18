@@ -22,5 +22,16 @@ for i in l1[0]:
     for j in range(1, len(l1)):
         for a in l1[j]:
             dict1 = i + a
-            print(dict1)
-
+            print(dict1#
+# 3.Write a  program to find the highest 3 values in a dictionary.
+ dict = {}
+n = int(input("Enter elements:"))
+for i in range(n):
+    key = (input("key: "))
+    value = int(input("value: "))
+    dict[key] = value
+print("Dictionary =",dict)
+list = sorted(set(dict.values()))
+print("highest 3 values in dictionary =",set(list[-3:]))
+                 
+                  
