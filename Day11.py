@@ -23,6 +23,7 @@ for i in l1[0]:
         for a in l1[j]:
             dict1 = i + a
             print(dict1#
+-------------------------------------------------------------------------------------------------------------------------------------
 # 3.Write a  program to find the highest 3 values in a dictionary.
  dict = {}
 n = int(input("Enter elements:"))
