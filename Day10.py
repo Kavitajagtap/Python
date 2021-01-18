@@ -38,7 +38,7 @@ def list():
  n = int(input("Enter length of a list: "))
  print("Enter elements of list:")
  for i in range(n):
-    l1.append(int(input()))
+   l1.append(int(input()))
  return l1
 a = list()
 b = list()
