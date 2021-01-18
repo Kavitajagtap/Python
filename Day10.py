@@ -27,3 +27,15 @@ for i in dict:
 print("Multiplication of all elements in dictionary =",d)
 
 # 3. Write a  program to map two lists into a dictionary. 
+def list():
+ l1 = []
+ n = int(input("Enter length of a list: "))
+ print("Enter elements of list:")
+ for i in range(n):
+    l1.append(int(input()))
+ return l1
+a = list()
+b = list()
+print("list1 =",a,"\nlist2 =",b)
+dict = {a[i]: b[i] for i in range(len(a))}
+print("Mapping of two list in dictionary =",dict)
