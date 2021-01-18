@@ -11,7 +11,9 @@ s = int(input("Enter any key to remove: "))
 if s in dict:
   del dict[s]
 print("Updated dictionary =",dict)
----
+
+----------------------------------------------------------------------
+
 # 2. Write a  program to multiply all the items in a dictionary.
 
 dict = {}
