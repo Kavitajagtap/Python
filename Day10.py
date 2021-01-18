@@ -25,3 +25,5 @@ d = 1
 for i in dict:
     d = d * dict[i]
 print("Multiplication of all elements in dictionary =",d)
+
+# 3. Write a  program to map two lists into a dictionary. 
