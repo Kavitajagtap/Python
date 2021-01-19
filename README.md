@@ -4,6 +4,8 @@
 
 ## Python is a high-level,interpreted, object-oriented,general-purpose and a very popular programming language.
 
+---
+
 # Why Python?
 
 - Python is one of the most popular programming languages in the world. Created in the early 1990s, it enjoys a wide range of uses from automating repetitive tasks and writing web apps to building machine learning models and implementing neural networks. Researchers, mathematicians, and data scientists in particular like Python because of its rich and easy-to-understand syntax and the wide range of open-source packages available. Packages are commonly used, shared code libraries that are freely available for anyone to use.
