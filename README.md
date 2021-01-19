@@ -12,3 +12,25 @@
 
 - Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting edge technology in Software Industry. Python Programming Language is very well suited for Beginners, also for experienced programmers with other programming languages like C++ and Java.
 
+## Advantages :
+
+1) Presence of third-party modules
+2) Extensive support libraries
+3) Open source and community development
+4) Easy to learn
+5) User-friendly data structures
+6) High-level language
+7) Dynamically typed language
+8) Object-oriented language
+9) Portable and Interactive
+10) Portable across Operating systems
+
+---
+
+## Applications :
+1) GUI based desktop applications(Games, Scientific Applications)
+2) Web frameworks and applications
+3) Enterprise and Business applications
+4) Operating Systems
+5) Language Development
+6) Prototyping
