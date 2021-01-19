@@ -34,3 +34,14 @@
 4) Operating Systems
 5) Language Development
 6) Prototyping
+
+## Organizations that uses Python :
+1) Google(Components of Google spider and Search Engine)
+2) Yahoo(Maps)
+3) YouTube
+4) Mozilla
+5) Dropbox
+6) Microsoft
+7) Cisco
+8) Spotify
+9) Quora
