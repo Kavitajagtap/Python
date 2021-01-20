@@ -23,3 +23,15 @@ for dict in list:
              count += 1
 print("count of success true =",count)
 ## 3. Write a program to convert a list into a nested dictionary of keys
+list = []
+n = int(input("length of a list:"))
+print("elements of list:")
+for i in range(n):
+    list.append(int(input()))
+print("list =",list)
+dict = c = {}
+for i in list:
+    c[i] = {}
+    c = c[i]
+print("Nested dictionary of key:",dict)
+
