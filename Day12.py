@@ -36,4 +36,18 @@ for x in s1:
         count[x] = 1
 print("count of the letters =",count)
 
+"""
+3. Write a Python program to get the top three items in a shop.
+"""
+dict = {}
+n = int(input("Enter elements: "))
+for i in range(n):
+    key = (input("key: "))
+    value = float(input("value: "))
+    dict[key] = value
+print("Dictionary =",dict)
+a = sorted(dict.items(), key=lambda x: x[1], reverse=True)
+print("Top three items =")
+for i in a[:3]:
+    print(i)
 
