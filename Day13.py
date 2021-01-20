@@ -22,4 +22,4 @@ for dict in list:
         if dict['success'] == True:
              count += 1
 print("count of success true =",count)
-
+## 3. Write a program to convert a list into a nested dictionary of keys
