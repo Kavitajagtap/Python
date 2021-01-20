@@ -18,6 +18,7 @@ for key in dict:
 Sample data: = [{'id': 1, 'success': True, 'name': 'Lary'}, {'id': 2, 'success': False, 'name': 'Rabi'}, {'id': 3, 'success': True, 'name': 'Alex'}]
 Expected result: Count of how many dictionaries have success as True
 """
+
 list = eval(input("list of Dictionaries:\n"))
 count = 0
 for dict in list:
