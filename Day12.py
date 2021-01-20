@@ -38,6 +38,8 @@ for x in s1:
         count[x] = 1
 print("count of the letters =",count)
 
+------------------------------------------------------------------------------------------------------------------------
+
 """
 3. Write a Python program to get the top three items in a shop.
 """
