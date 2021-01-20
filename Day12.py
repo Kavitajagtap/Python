@@ -20,6 +20,8 @@ for i in list:
         dict[i[0]] = i[1]
 print("new dictionary =",dict)
 
+------------------------------------------------------------------------------------------------------------------------
+
 """
 2.Write a Python program to create a dictionary from a string. Go to the editor.
 Note: Track the count of the letters from the string.
