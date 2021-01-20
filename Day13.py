@@ -10,6 +10,9 @@ print("Dictionary =",dict,"\nDictionary in table format:")
 print('{:10} {}'.format('COMPANY', 'YEAR'))
 for key in dict:
     print('{:10} {} '.format(key, dict[key]))
+ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
 """
 2. Write a  program to count the values associated with key in a dictionary. 
 Sample data: = [{'id': 1, 'success': True, 'name': 'Lary'}, {'id': 2, 'success': False, 'name': 'Rabi'}, {'id': 3, 'success': True, 'name': 'Alex'}]
