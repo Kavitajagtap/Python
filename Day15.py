@@ -11,6 +11,8 @@ print("dictionary = ",dict,"\nDictionary line by line: ")
 for k,v in dict.items():
     print(k)
     print(v)
+    
+-----------------------------------------------------------------------------------------------------------------------
 
  # 2. Write a program to check multiple keys exists in a dictionary.
 
@@ -26,7 +28,9 @@ while 1:
         print("multiple keys exists in a dictionary")
     else:
         print("multiple keys doesn't exists in a dictionary")
-        
+
+-----------------------------------------------------------------------------------------------------------------------
+
 # 3. Write a program to count number of items in a dictionary value that is a list.
 
 dict = {}
