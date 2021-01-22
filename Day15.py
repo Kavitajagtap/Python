@@ -13,3 +13,18 @@ for k,v in dict.items():
     print(v)
 
  # 2. Write a program to check multiple keys exists in a dictionary.
+
+while 1:
+    dict = {}
+    n = int(input("Enter elements: "))
+    for i in range(n):
+        k = (input("key: "))
+        v = int(input("value: "))
+        dict[k] = v
+    print("dictionary = ",dict)
+    if len(dict.keys()) > 1:
+        print("multiple keys exists in a dictionary")
+    else:
+        print("multiple keys doesn't exists in a dictionary")
+        
+# 3. Write a program to count number of items in a dictionary value that is a list.
