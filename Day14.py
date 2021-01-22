@@ -10,6 +10,7 @@ print("Dictionary =",dict)
 new_dict = {k: sorted(v) for k, v in dict.items()}
 
 --------------------------------------------------------------------------------------------------------------
+
 print("Sorted list of dictionary =",new_dict)
 
 # 2.Write a program to remove spaces from dictionary keys.
@@ -25,7 +26,10 @@ for key in dict:
     dict[k1] = dict.pop(key)
 print("new dictionary =",dict)
 
- 3.Write a program to get the key, value and item in a dictionary.
+--------------------------------------------------------------------------------------------------------------
+
+# 3.Write a program to get the key, value and item in a dictionary.
+
 dict = {}
 n = int(input("Enter elements: "))
 for i in range(n):
