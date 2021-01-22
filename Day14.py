@@ -34,11 +34,13 @@ print("new dictionary =",dict)
 
 dict = {}
 n = int(input("Enter elements: "))
+
 for i in range(n):
     k = (input("key: "))
     v = int(input("value: "))
     dict[k] = v
 print("Dictionary =",dict)
+
 for k, v in dict.items():
     print('key:', k, 'value:', v, 'item:', (k, v))
     
