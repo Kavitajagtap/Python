@@ -25,3 +25,12 @@ for key in dict:
 print("new dictionary =",dict)
 
 # 3.Write a program to get the key, value and item in a dictionary.
+dict = {}
+n = int(input("Enter elements: "))
+for i in range(n):
+    k = (input("key: "))
+    v = int(input("value: "))
+    dict[k] = v
+print("Dictionary =",dict)
+for k, v in dict.items():
+    print('key:', k, 'value:', v, 'item:', (k, v))
