@@ -24,4 +24,4 @@ for key in dict:
     dict[k1] = dict.pop(key)
 print("new dictionary =",dict)
 
-# 
+# 3.Write a program to get the key, value and item in a dictionary.
