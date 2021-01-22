@@ -17,8 +17,12 @@ print("Sorted list of dictionary =",new_dict)
 
 ------------------------------------------------------------------------------------------------------------
 
-# 2.Write a program to remove spaces from dictionary keys
+"""
+2.Write a program to remove spaces from dictionary keys
+Enter dictionary = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+Dictionary = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
 
+"""
 dict = {}
 n = int(input("Enter elements: "))
 
