@@ -39,8 +39,15 @@ print("new dictionary =",dict)
 
 --------------------------------------------------------------------------------------------------------------
 
-# 3.Write a program to get the key, value and item in a dictionary.
+"""
+3.Write a program to get the key, value and item in a dictionary.
+Dictionary = {'a': 10, 'b': 20, 'c': 30, 'd': 40}
+key: a value: 10 item: ('a', 10)
+key: b value: 20 item: ('b', 20)
+key: c value: 30 item: ('c', 30)
+key: d value: 40 item: ('d', 40)
 
+"""
 dict = {}
 n = int(input("Enter elements: "))
 
