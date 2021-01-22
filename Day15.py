@@ -28,6 +28,7 @@ while 1:
         print("multiple keys doesn't exists in a dictionary")
         
 # 3. Write a program to count number of items in a dictionary value that is a list.
+
 dict = {}
 n = int(input("Enter elements: "))
 for i in range(n):
