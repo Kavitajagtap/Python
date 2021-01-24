@@ -15,6 +15,8 @@ print("dictionary = ",dict)
 print("Dictionary sorted by value = ")
 print(sorted(dict.items(), key=lambda x: x[1], reverse=True))
 
+------------------------------------------------------------------------------------------------------------
+
 ## 2.  Write a program to create a dictionary from two lists without losing duplicate values.
 
 l1 = []
