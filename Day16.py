@@ -32,3 +32,12 @@ print("dictionary =",d)
 
 ## 3. Write a program to replace dictionary values with their average.
 
+dict = {}
+n = int(input("Enter elements: "))
+for i in range(n):
+    k = (input("key: "))
+    v = eval(input("value: "))
+    dict[k] = v
+print("dictionary = ",dict)
+d1 = {k:sum(v)/len(v) for k, v in dict.items()}
+print("New dictionary =",d1)
