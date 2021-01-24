@@ -23,3 +23,8 @@ Original dictionary :
 {'c1':'Red','c2':'Pink','c3':None}
 Output :
 {'c1':'Red','c2':'Pink'}
+"""
+dict = eval(input("Enter dictionary = "))
+print("Original dictionary =",dict)
+dict = {k:v for (k, v) in dict.items() if v is not None}
+print("Dictionary after dropping empty items:",dict)
