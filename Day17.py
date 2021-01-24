@@ -2,6 +2,7 @@
 1. Write a program to match key values in two dictionaries.
 Sample dictionary: {'key1': 1, 'key2': 3, 'key3': 2}, {'key1': 1, 'key2': 2}
 Expected output: key1: 1 is present in both x and y
+
 """
 def dict1():
  d = {}
@@ -17,6 +18,7 @@ print("dict1 =",d1,"\ndict2 =",d2)
 
 for (key, value) in (d1.items() & d2.items()):
     print('{}:'.format(key), value,'is present in both lists')
+  
 """
 2. Write program to drop empty items from a given dictionary. 
 Original dictionary :
