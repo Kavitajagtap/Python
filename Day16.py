@@ -30,3 +30,5 @@ for i in range(num):
 d = {l1[i]: l2[i] for i in range(len(l1))}
 print("dictionary =",d)
 
+## 3. Write a program to replace dictionary values with their average.
+
