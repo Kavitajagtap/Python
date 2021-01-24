@@ -41,5 +41,6 @@ for i in range(n):
     v = eval(input("value: "))
     dict[k] = v
 print("dictionary = ",dict)
+
 d1 = {k:sum(v)/len(v) for k, v in dict.items()}
 print("New dictionary =",d1)
