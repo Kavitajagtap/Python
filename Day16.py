@@ -13,3 +13,20 @@ print("dictionary = ",dict)
 print("Dictionary sorted by value = ")
 print(sorted(dict.items(), key=lambda x: x[1], reverse=True))
 
+## 2.  Write a program to create a dictionary from two lists without losing duplicate values.
+
+l1 = []
+num = int(input("First list\nlength of a list:"))
+print("Enter elements of list:")
+for i in range(num):
+    l1.append((input()))
+
+l2 = []
+num = int(input("Second list\nlength of a list:"))
+print("Enter elements of list:")
+for i in range(num):
+    l2.append(int(input()))
+
+d = {l1[i]: l2[i] for i in range(len(l1))}
+print("dictionary =",d)
+
