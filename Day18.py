@@ -11,6 +11,9 @@ for x in s1:
     else:
         count[x] = 1
 print("count of the characters =",count)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 """
 2.Write a  program to get a string from a given string where all occurrences of its first char have been changed to '$', except the first char itself. 
 Sample String : 'restart'
