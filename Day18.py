@@ -26,6 +26,8 @@ s1 = s1.replace(temp, '$')
 s1 = temp + s1[1:]
 print("New string =",s1)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 """
 3.Write a program to get a single string from two given strings, separated by a space and swap the first two characters of each string. 
 Sample String : 'abc', 'xyz'
