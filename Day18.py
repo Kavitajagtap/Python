@@ -16,3 +16,15 @@ print("count of the characters =",count)
 Sample String : 'restart'
 Expected Result : 'resta$t'
 """
+Program :-
+s1 = input("Enter any string = ")
+temp = s1[0]
+s1 = s1.replace(temp, '$')
+s1 = temp + s1[1:]
+print("New string =",s1)
+
+"""
+3.Write a program to get a single string from two given strings, separated by a space and swap the first two characters of each string. 
+Sample String : 'abc', 'xyz'
+Expected Result : 'xyc abz'
+"""
