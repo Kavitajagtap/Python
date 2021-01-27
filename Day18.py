@@ -28,3 +28,9 @@ print("New string =",s1)
 Sample String : 'abc', 'xyz'
 Expected Result : 'xyc abz'
 """
+s1 = input("Enter string1 = ")
+s2 = input("Enter string2 = ")
+str1 = s2[:2] + s1[2:]
+str2 = s1[:2] + s2[2:]
+string = str1 + ' ' + str2
+print("New String =",string)
