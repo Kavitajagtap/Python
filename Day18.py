@@ -19,7 +19,6 @@ print("count of the characters =",count)
 Sample String : 'restart'
 Expected Result : 'resta$t'
 """
-Program :-
 s1 = input("Enter any string = ")
 temp = s1[0]
 s1 = s1.replace(temp, '$')
