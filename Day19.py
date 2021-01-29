@@ -1,4 +1,6 @@
+
 ## 1.Write a Python function that takes a list of words and returns the longest word and the length of the longest one.
+
  def long_word(list):
     length = []
     for i in list:
@@ -16,6 +18,8 @@ print("list =",list)
 a = long_word(list)
 print("Longest word =",a[1])
 print("Length of the longest word =",a[0])
+
+-------------------------------------------------------------------------------------------------------
 
 ## 2. Write a Python program to remove the nth index character from a nonempty string.
 def rem(s1, n):
