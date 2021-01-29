@@ -19,9 +19,10 @@ a = long_word(list)
 print("Longest word =",a[1])
 print("Length of the longest word =",a[0])
 
--------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Write a Python program to remove the nth index character from a nonempty string.
+
 def rem(s1, n):
     a = s1[:n]
     b = s1[n + 1:]
@@ -30,6 +31,8 @@ def rem(s1, n):
 s1 = input("Enter any string = ")
 n = int(input("Enter nth index character to remove = "))
 print("New string: ",rem(s1, n))
+
+------------------------------------------------------------------------------------------------------------------------------
 
 ## 3.Write a Python program to remove the characters which have odd index values of a given string. 
 def oddval(s1):
