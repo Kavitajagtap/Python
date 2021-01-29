@@ -27,3 +27,4 @@ s1 = input("Enter any string = ")
 n = int(input("Enter nth index character to remove = "))
 print("New string: ",rem(s1, n))
 
+## 3.Write a Python program to remove the characters which have odd index values of a given string. 
