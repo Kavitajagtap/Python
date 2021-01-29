@@ -8,6 +8,8 @@ words = input("sequence of words:")
 temp = [i for i in words.split(",")]
 print("unique words in sorted form =",",".join(sorted(list(set(temp)))))
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ## 2. Write a program to insert a string in the middle.
 s1 = input("Enter any string = ")
 s2 = input("enter a string to insert in the middle = ")
