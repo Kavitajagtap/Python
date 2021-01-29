@@ -43,3 +43,5 @@ def oddval(s1):
   return s2
 s1 = input("Enter any string = ")
 print("string after removing odd index characters =",oddval(s1))
+
+------------------------------------------------------------------------------------------------------------------------------
