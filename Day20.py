@@ -14,3 +14,13 @@ s2 = input("enter a string to insert in the middle = ")
 n = 6
 res = s1[:n] + " " + s2 + " " + s1[n:]
 print("New string = " + res)
+
+## 3. Write a program to reverse words in a string.
+def rev_string(s1):
+   words = s1.split(' ')
+   s2 = ' '.join(reversed(words))
+   return s2
+
+s1 = input("Enter any string = ")
+print("String with reversing words =",rev_string(s1))
+
