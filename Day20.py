@@ -11,11 +11,14 @@ print("unique words in sorted form =",",".join(sorted(list(set(temp)))))
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Write a program to insert a string in the middle.
+
 s1 = input("Enter any string = ")
 s2 = input("enter a string to insert in the middle = ")
 n = 6
 res = s1[:n] + " " + s2 + " " + s1[n:]
 print("New string = " + res)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 3. Write a program to reverse words in a string.
 def rev_string(s1):
