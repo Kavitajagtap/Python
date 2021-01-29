@@ -16,3 +16,5 @@ print("list =",list)
 a = long_word(list)
 print("Longest word =",a[1])
 print("Length of the longest word =",a[0])
+
+## 2. Write a Python program to remove the nth index character from a nonempty string.
