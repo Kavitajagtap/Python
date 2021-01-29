@@ -18,3 +18,12 @@ print("Longest word =",a[1])
 print("Length of the longest word =",a[0])
 
 ## 2. Write a Python program to remove the nth index character from a nonempty string.
+def rem(s1, n):
+    a = s1[:n]
+    b = s1[n + 1:]
+    return a + b
+
+s1 = input("Enter any string = ")
+n = int(input("Enter nth index character to remove = "))
+print("New string: ",rem(s1, n))
+
