@@ -11,11 +11,15 @@ for i in s1:
 print("Number of vowels are = ",count)
 print("vowels = ", s)
 
+-------------------------------------------------------------------------------------------------------------
+
 ## 2. Write a Python program to count occurrences of a substring in a string.
 
 string = input("Enter any string = ")
 substring = input("Enter substring = ")
 print("occurrence of substring in given string = ",string.count(substring))
+
+-------------------------------------------------------------------------------------------------------------
 
 ## 3. Write a Python program to check if a string contains all letters of the alphabet
 
@@ -31,3 +35,5 @@ if (check(s1) == True):
     print("string contains all letters the of the alphabet")
 else:
     print("string doesn't contains all the letters of the alphabet")
+
+-------------------------------------------------------------------------------------------------------------
